@@ -4,12 +4,15 @@
 
 Key/Command | Description
 ------------ | -------------
-ls | Short listing
-ls -l | Long listing
-ls -a | Listing including hidden files
-open fileName | Opens a file
 clear | Clears the screen
-
+echo | Display text on screen
+file fileName | Determine file type of a file
+history | Print command history
+nano fileName | Simple text editor
+open fileName | Opens a file
+pwd | Print working directory
+ls | Short listing
+ls -a | Listing including hidden files
 
 ## Navigating Commands
 Key/Command | Description
@@ -23,10 +26,11 @@ cd folderName | Change directory to a folder directly inside of your current wor
 ## File Management Commands
 Key/Command | Description
 ------------ | -------------
-rm fileName | Removes a file
 cp fileName copyFileName | Copies a file
+mkdir directoryName | Create new directory
+mkfile fileName | Create a new file
 pbcopy < fileName | Copies file contents to clipboard
 pbpaste | Paste clipboard contents 
 pbpaste > fileName | Paste clipboard contents into file
-mkdir directoryName | Create new directory
+rm fileName | Removes a file
 rmdir directoryName | Removes directory
