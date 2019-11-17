@@ -1,4 +1,4 @@
-# Terminal Cheatsheet
+# Command Line Cheatsheet
 
 ## Basic Commands
 
@@ -34,5 +34,3 @@ pbpaste | Paste clipboard contents
 pbpaste > fileName | Paste clipboard contents into file
 rm fileName | Removes a file
 rmdir directoryName | Removes directory
-
-## Github Commands
